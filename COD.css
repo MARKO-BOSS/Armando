@@ -1,0 +1,66 @@
+nav{
+    border: 3px solid black;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: yellow;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 17px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('./images/bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.nav-item img {
+    width: 2em;
+}
+
+.focim {
+    color: rgb(235, 235, 235);
+}
+
+.tort {
+    background-color: rgba(99, 51, 51, 0.41);
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+    text-align: justify;
+}
+
+.blokk p {
+    text-align: justify;
+}
+
+th,
+td {
+    border-bottom: 1px solid white;
+    padding: 1em;
+}
+
+#kepek {
+    color: white;
+}
+
+#fel {
+    position: fixed;
+    color: white;
+    bottom: 2em;
+    right: 4em;
+}
+
+a {
+    color: rgb(189, 229, 243);
+    text-decoration: none;
+}

@@ -1,0 +1,82 @@
+nav{
+    border: 3px solid black;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: yellow;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 17px;
+}
+
+body {
+    background-image: url(./purple-gaming-nepi2tnxp6g0mvz9.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+h1{
+    text-align: center;
+    font-size: 20;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px rgb(160, 8, 8);
+    border-style: outset;
+}
+
+div.first {
+    margin-left: 80px;
+    margin-right: 1250px;
+    margin-top: 120px;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    border: 7px solid blue;
+    border-style: outset;
+    background-color: aqua;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+}
+
+div.second{
+    margin-left: 1200px;
+    margin-right: 140px;
+    margin-top: -780px;
+    margin-bottom: 50px;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    border: 7px solid blue;
+    border-style: outset;
+    background-color: aqua;
+}
+
+div.img{
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-top: -650px;
+}
+
+footer {
+    text-align: center;
+    color: yellow;
+    font-size: 19px;
+    margin-top: 200px;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

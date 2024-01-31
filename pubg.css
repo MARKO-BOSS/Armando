@@ -1,0 +1,76 @@
+nav{
+    border: 3px solid black;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: yellow;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 17px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px navy;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr, 3);
+}
+
+#first {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    text-justify: distribute;
+    max-width: 80%;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(158, 231, 140);
+    box-shadow: 10px 10px 5px rgb(1, 18, 24);
+}
+
+#second {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    text-justify: distribute;
+    max-width: 80%;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(158, 231, 140);
+    box-shadow: 10px 10px 5px rgb(1, 18, 24);
+}
+
+ul {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    text-justify: distribute;
+    max-width: 80%;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: 'Fjalla One', sans-serif;
+    border: 5px solid navy;
+}
